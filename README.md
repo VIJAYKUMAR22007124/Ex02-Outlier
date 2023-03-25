@@ -13,6 +13,21 @@ You are given bhp.csv which contains property prices in the city of banglore, In
     (i) Using IQR detect weight outliers and print them
 
     (ii) Using IQR, detect height outliers and print them
+    
+CODE:
+
+sns.boxplot(data=df1)
+
+q1=df1.quantile(0.25)
+q2=df1.quantile(0.50)
+q3=df1.quantile(0.75)
+iqr=q3-q1
+high=q3+1.5*iqr
+low=q1-1.5*iqr
+
+z=np.abs(stats.zscore(df2))
+
+
 
 OUTPUT:
 
