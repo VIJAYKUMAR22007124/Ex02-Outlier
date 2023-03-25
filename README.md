@@ -16,6 +16,7 @@ You are given bhp.csv which contains property prices in the city of banglore, In
     
 CODE:
 
+```
 sns.boxplot(data=df1)
 
 q1=df1.quantile(0.25)
@@ -26,6 +27,7 @@ high=q3+1.5*iqr
 low=q1-1.5*iqr
 
 z=np.abs(stats.zscore(df2))
+```
 
 
 
