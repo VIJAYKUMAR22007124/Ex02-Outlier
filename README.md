@@ -1,9 +1,10 @@
 # Ex02-Outlier
 
 AIM:
+
     To perform various operations regarding the outliers detection using the given Dataset.
  
-Algorithm:
+ALGORITHM:
 
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
 
@@ -49,6 +50,6 @@ OUTPUT:
 ![Screenshot (233)](https://user-images.githubusercontent.com/119657657/227710146-642b1ced-a25e-4919-824d-1686fffe71a7.png)
 
 
-Result:
+RESULTt:
 
 Outliers are detected using the operations(i.e IQR method,,etc). 
