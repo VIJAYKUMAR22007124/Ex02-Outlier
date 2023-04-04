@@ -1,5 +1,10 @@
 # Ex02-Outlier
 
+AIM:
+    To perform various operations regarding the outliers detection using the given Dataset.
+ 
+Algorithm:
+
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
 
 (1) Remove outliers using IQR 
@@ -13,6 +18,8 @@ You are given bhp.csv which contains property prices in the city of banglore, In
     (i) Using IQR detect weight outliers and print them
 
     (ii) Using IQR, detect height outliers and print them
+    
+    
     
 CODE:
 
@@ -40,3 +47,8 @@ OUTPUT:
 ![Screenshot (232)](https://user-images.githubusercontent.com/119657657/227710137-a2fd02f6-5d7b-44cd-8c9f-3ba1c22bb9f6.png)
 
 ![Screenshot (233)](https://user-images.githubusercontent.com/119657657/227710146-642b1ced-a25e-4919-824d-1686fffe71a7.png)
+
+
+Result:
+
+Outliers are detected using the operations(i.e IQR method,,etc). 
