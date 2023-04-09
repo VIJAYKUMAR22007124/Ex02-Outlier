@@ -6,20 +6,15 @@ AIM:
  
 ALGORITHM:
 
-You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
+You are provided with a csv file(bhp.csv) use that file and removw the outliers using IQR method and get a new dataframe.
 
-(1) Remove outliers using IQR 
+Also use zscore method of 3 to remove outliers.
 
-(2) After removing outliers in step 1, you get a new dataframe.
+You are given  csv flles(height_weight.csv)
 
-(3) use zscore of 3 to remove outliers. This is quite similar to IQR and you will get exact same result
+1. Use the IQR method to detect the outliers(WEIGHT) and print them.
 
-(4) for the data set height_weight.csv find the following
-
-    (i) Using IQR detect weight outliers and print them
-
-    (ii) Using IQR, detect height outliers and print them
-    
+2. Use the IQR method to detect the outliers(HEIGHT) and print them.   
     
     
 CODE:
